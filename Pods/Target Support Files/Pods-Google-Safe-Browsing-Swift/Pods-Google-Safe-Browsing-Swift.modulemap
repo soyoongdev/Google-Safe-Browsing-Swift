@@ -1,0 +1,6 @@
+framework module Pods_Google_Safe_Browsing_Swift {
+  umbrella header "Pods-Google-Safe-Browsing-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
