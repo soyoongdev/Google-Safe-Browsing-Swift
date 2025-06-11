@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var activeView: UIView!
+    @IBOutlet weak var yourSecurityLevelLabel: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
