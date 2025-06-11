@@ -10,7 +10,6 @@
 		4D3F93832DF2FB7C008FF65C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F93822DF2FB7C008FF65C /* Extensions.swift */; };
 		4D997B262DF29CBB00D6F451 /* FaceOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D997B252DF29CBB00D6F451 /* FaceOverlayView.swift */; };
 		4D997B282DF29D1200D6F451 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D997B272DF29D1200D6F451 /* ViewController.swift */; };
-		4DFB90462DF924770073FF85 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB90452DF924770073FF85 /* Models.swift */; };
 		73E82D1C90E26BEA06694888 /* Pods_Google_Safe_Browsing_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB3F0DF9187711DF6340C4B /* Pods_Google_Safe_Browsing_Swift.framework */; };
 		F5870AD42169F51C0019607B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5870AD32169F51C0019607B /* AppDelegate.swift */; };
 		F5870AD92169F51C0019607B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5870AD72169F51C0019607B /* Main.storyboard */; };
@@ -34,7 +33,6 @@
 		4D3F93822DF2FB7C008FF65C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		4D997B252DF29CBB00D6F451 /* FaceOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceOverlayView.swift; sourceTree = "<group>"; };
 		4D997B272DF29D1200D6F451 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4DFB90452DF924770073FF85 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		8689BCDA900C5535D2851F7C /* Pods-Google-Safe-Browsing-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google-Safe-Browsing-Swift.debug.xcconfig"; path = "Target Support Files/Pods-Google-Safe-Browsing-Swift/Pods-Google-Safe-Browsing-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		BA0698B939A8EA918ACE8074 /* Pods-Google-Safe-Browsing-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google-Safe-Browsing-Swift.release.xcconfig"; path = "Target Support Files/Pods-Google-Safe-Browsing-Swift/Pods-Google-Safe-Browsing-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		F5870AD02169F51C0019607B /* Google-Safe-Browsing-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google-Safe-Browsing-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,7 +163,6 @@
 				F5870B0C2169F6210019607B /* TopStoriesResponse.swift */,
 				F5870B0E2169F6260019607B /* Multimedia.swift */,
 				F5870B102169F62F0019607B /* TopStories.swift */,
-				4DFB90452DF924770073FF85 /* Models.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -295,7 +292,6 @@
 				4D997B282DF29D1200D6F451 /* ViewController.swift in Sources */,
 				F5CC849B216A014D0084EBA2 /* WebViewController.swift in Sources */,
 				F5870B0F2169F6270019607B /* Multimedia.swift in Sources */,
-				4DFB90462DF924770073FF85 /* Models.swift in Sources */,
 				F5870B0B2169F6190019607B /* TopStoriesListViewModel.swift in Sources */,
 				F5870B112169F62F0019607B /* TopStories.swift in Sources */,
 				F5870B0D2169F6210019607B /* TopStoriesResponse.swift in Sources */,
@@ -452,13 +448,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H4LWEQ8DPH;
+				DEVELOPMENT_TEAM = 3AMK848546;
 				INFOPLIST_FILE = "Google-Safe-Browsing-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CodingTest;
+				PRODUCT_BUNDLE_IDENTIFIER = soyoong.dev.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -471,13 +467,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H4LWEQ8DPH;
+				DEVELOPMENT_TEAM = 3AMK848546;
 				INFOPLIST_FILE = "Google-Safe-Browsing-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CodingTest;
+				PRODUCT_BUNDLE_IDENTIFIER = soyoong.dev.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

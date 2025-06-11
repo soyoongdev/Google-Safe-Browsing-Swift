@@ -67,11 +67,20 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F5870ACF2169F51C0019607B"
+            BuildableName = "Google-Safe-Browsing-Swift.app"
+            BlueprintName = "Google-Safe-Browsing-Swift"
+            ReferencedContainer = "container:Google-Safe-Browsing-Swift.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F5870ACF2169F51C0019607B"
             BuildableName = "MVVM-Combine-Swift.app"
             BlueprintName = "MVVM-Combine-Swift"
             ReferencedContainer = "container:MVVM-Combine-Swift.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -89,6 +98,15 @@
             ReferencedContainer = "container:MVVM-Combine-Swift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F5870ACF2169F51C0019607B"
+            BuildableName = "MVVM-Combine-Swift.app"
+            BlueprintName = "MVVM-Combine-Swift"
+            ReferencedContainer = "container:MVVM-Combine-Swift.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

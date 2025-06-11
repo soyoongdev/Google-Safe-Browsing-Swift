@@ -11,10 +11,6 @@ import Foundation
 
 protocol APIServiceProtocol {
     func fetchTopStories( complete: @escaping ( _ success: Bool, _ topStories: [TopStories], _ error: Error? )->() )
-    func fetchUsers(complete: @escaping (Result<[User], Error>) -> Void)
-    func fetchPosts(complete: @escaping (Result<[Post], Error>) -> Void)
-    func fetchComments(complete: @escaping (Result<[Comment], Error>) -> Void)
-    func fetchTodos(complete: @escaping (Result<[Todo], Error>) -> Void)
 }
 class UrlComponents {
     let path: String
@@ -55,6 +51,7 @@ private let sessionManager: URLSession = {
 }()
 
 class APIService: APIServiceProtocol {
+    
     // Simulate a long waiting for fetching 
     func fetchTopStories( complete: @escaping ( _ success: Bool, _ results: [TopStories], _ error: Error? )->() ) {
         
