@@ -47,7 +47,7 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Thr-1r-iqu">
                                                         <rect key="frame" x="0.0" y="0.0" width="90.5" height="62.5"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8ze-Ki-JnG">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="safe_vpn_icon" translatesAutoresizingMaskIntoConstraints="NO" id="8ze-Ki-JnG">
                                                                 <rect key="frame" x="24.5" y="10.5" width="42" height="42"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="42" id="bH0-9D-0RW"/>
@@ -74,7 +74,7 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p2Y-q5-Pro">
                                                         <rect key="frame" x="0.0" y="0.0" width="91" height="62.5"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9Nc-LB-OoN">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="safe_browsing_icon" translatesAutoresizingMaskIntoConstraints="NO" id="9Nc-LB-OoN">
                                                                 <rect key="frame" x="24.5" y="10.5" width="42" height="42"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="42" id="6I9-iN-YAW"/>
@@ -101,7 +101,7 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xOs-j2-uuz">
                                                         <rect key="frame" x="0.0" y="0.0" width="90.5" height="62.5"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gx2-wM-3xi">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="safe_id_protection_icon" translatesAutoresizingMaskIntoConstraints="NO" id="gx2-wM-3xi">
                                                                 <rect key="frame" x="24" y="10.5" width="42" height="42"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="42" id="LUe-zD-SCR"/>
@@ -139,7 +139,7 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AC3-Fl-h3P">
                                                         <rect key="frame" x="0.0" y="0.0" width="90.5" height="62.5"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jeJ-Bk-MLI">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="safe_vault_icon" translatesAutoresizingMaskIntoConstraints="NO" id="jeJ-Bk-MLI">
                                                                 <rect key="frame" x="24.5" y="10.5" width="42" height="42"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="42" id="GAI-J5-hng"/>
@@ -166,7 +166,7 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FP3-H9-LMA">
                                                         <rect key="frame" x="0.0" y="0.0" width="91" height="62.5"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u3k-hD-pKe">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="safe_wifi_icon" translatesAutoresizingMaskIntoConstraints="NO" id="u3k-hD-pKe">
                                                                 <rect key="frame" x="24.5" y="10.5" width="42" height="42"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="42" id="9g2-5u-qau"/>
@@ -193,7 +193,7 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M7B-nR-9YN">
                                                         <rect key="frame" x="0.0" y="0.0" width="90.5" height="62.5"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ARe-Y1-zvv">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="safe_caller_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ARe-Y1-zvv">
                                                                 <rect key="frame" x="24" y="10.5" width="42" height="42"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="42" id="cYM-ed-OFQ"/>
@@ -289,6 +289,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="safe_browsing_icon" width="512" height="512"/>
+        <image name="safe_caller_icon" width="512" height="512"/>
+        <image name="safe_id_protection_icon" width="512" height="512"/>
+        <image name="safe_vault_icon" width="512" height="512"/>
+        <image name="safe_vpn_icon" width="512" height="512"/>
+        <image name="safe_wifi_icon" width="512" height="512"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

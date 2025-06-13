@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -202,6 +202,7 @@
 				F5870ACC2169F51C0019607B /* Sources */,
 				F5870ACD2169F51C0019607B /* Frameworks */,
 				F5870ACE2169F51C0019607B /* Resources */,
+				CBC19508C2CFB04BC2EB23B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +260,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		CBC19508C2CFB04BC2EB23B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Google-Safe-Browsing-Swift/Pods-Google-Safe-Browsing-Swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Google-Safe-Browsing-Swift/Pods-Google-Safe-Browsing-Swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Google-Safe-Browsing-Swift/Pods-Google-Safe-Browsing-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F9BF3A6EBE4389B9B8E95E1A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -456,6 +474,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = soyoong.dev.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -475,6 +494,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = soyoong.dev.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

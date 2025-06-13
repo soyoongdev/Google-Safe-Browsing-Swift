@@ -6,6 +6,7 @@ target 'Google-Safe-Browsing-Swift' do
   use_frameworks!
 
   # Pods for CodingTest
+  pod 'IQKeyboardManagerSwift', '6.3.0'
 
 end
 
