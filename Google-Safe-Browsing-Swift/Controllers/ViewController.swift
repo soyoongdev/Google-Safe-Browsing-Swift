@@ -10,13 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var activeView: UIView!
-    @IBOutlet weak var yourSecurityLevelLabel: UILabel!
+    @IBOutlet weak var vpnButton: UIView!
+    @IBOutlet weak var browsingButton: UIView!
+    @IBOutlet weak var idProtectionButton: UIView!
     
+    @IBOutlet weak var vaultButton: UIView!
+    @IBOutlet weak var wifiSecurityButton: UIView!
+    @IBOutlet weak var callBlockerButton: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.setupUI()
     }
     
 
@@ -30,5 +34,48 @@ class ViewController: UIViewController {
     }
     */
     @IBAction func goToTopStories(_ sender: Any) {
+    }
+}
+
+extension ViewController {
+    private func setupUI() {
+        let vpnButtonModel = self.createButton(title: "VPN", action: { [weak self] in
+            guard let self = self else { return }
+            // Handle VPN button action here
+            print("VPN button tapped")
+        })
+        vpnButton.addSubview(vpnButtonModel)
+        vpnButtonModel.allEdges()
+        
+        let safeBrowsingButtonModel = self.createButton(title: "Safe Browsing", action: { [weak self] in
+            guard let self = self else { return }
+            // Handle VPN button action here
+            print("Safe Browsing button tapped")
+        })
+        browsingButton.addSubview(safeBrowsingButtonModel)
+        safeBrowsingButtonModel.allEdges()
+        
+        let idProtectionButtonModel = self.createButton(title: "ID Protection", action: {
+            // Handle VPN button action here
+            print("ID Protection button tapped")
+        })
+        idProtectionButton.addSubview(idProtectionButtonModel)
+        idProtectionButtonModel.allEdges()
+    }
+    
+    private func createButton(title: String, action: @escaping () -> Void) -> UIView {
+        let model = ButtonVM {
+            $0.title = title
+            $0.color = .warning
+            $0.isFullWidth = false
+            $0.size = .small
+            $0.title = ""
+            $0.isLoading = true
+            $0.loadingVM = LoadingVM {
+                $0.color = .success
+            }
+        }
+        let button = UKButton(model: model, action: action)
+        return button
     }
 }

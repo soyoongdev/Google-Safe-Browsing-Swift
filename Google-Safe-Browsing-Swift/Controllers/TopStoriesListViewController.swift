@@ -36,7 +36,7 @@ class TopStoriesListViewController: UIViewController {
     //Mark: Setup View Methods
     func initView() {
         tableView.estimatedRowHeight = 140
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
     }
     
     func initVM() {
@@ -114,7 +114,7 @@ extension TopStoriesListViewController: UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
+        return UITableView.automaticDimension
     }
     
     func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
